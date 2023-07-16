@@ -65,7 +65,7 @@ public class TestCases {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.urlContains("/user/submit_tt.do"));
 
-        driver.findElement(By.id("contaier_reports")).click();
+        driver.findElement(By.id("container_reports")).click();
     }
 
     @Test
